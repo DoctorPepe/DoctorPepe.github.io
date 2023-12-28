@@ -1,0 +1,92 @@
+html {
+    background-color: #2b3136;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    margin: 0;
+    height: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "nav" "main" "footer";
+    grid-template-rows: 1fr 80px;
+}
+
+.header {
+    padding: 24px;
+    margin: 0px;
+    background-image: url('splash.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    grid-area: header;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+.main {
+    grid-area: main;
+}
+
+.footer {
+    padding: 6px;
+    margin: 0px;
+    grid-area: footer;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    overflow: hidden;
+    position: sticky;
+}
+
+li.nav {
+    float: left;
+    border-right: 1px solid whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li.nav:last-child {
+    border-right: none;
+}
+
+li a.nav {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a.nav:hover:not(.active) {
+    background-color: black;
+}
+
+.active {
+    background-color: #333;
+}
+
+.buttonLD {
+    background: url('linkedin.jpg') no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    border: none;
+    height: 35px;
+    width: 35px;
+}
+
+.buttonGH {
+    background: url('github.jpg') no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    border: none;
+    height: 35px;
+    width: 35px;
+}

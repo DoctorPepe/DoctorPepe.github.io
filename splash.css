@@ -1,0 +1,78 @@
+html {
+    min-height: 100%;
+    background-image: linear-gradient(to bottom right, #aa4b6b, #6b6b83, #3b8d99);
+    width: 100%;
+    height: auto; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+}
+
+.container {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+li {
+    float: left;
+    border-right: 1px solid whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: grey;
+}
+
+.active {
+    background-color: darkgray;
+}
+
+h1 {
+    position:relative;
+    text-align: center;
+}
+
+.buttonLD {
+    background: url('linkedin.jpg') no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    border: none;
+    height: 35px;
+    width: 35px;
+}
+
+.buttonGH {
+    background: url('github.jpg') no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    border: none;
+    height: 35px;
+    width: 35px;
+}
+
+p {
+    padding-top: 14px;
+}
