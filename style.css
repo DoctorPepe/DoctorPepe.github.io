@@ -88,15 +88,6 @@ li a.nav:hover:not(.active) {
     background-color: #333;
 }
 
-.buttonLD {
-    background: url('linkedin.jpg') no-repeat;
-    background-size: contain;
-    cursor: pointer;
-    border: none;
-    height: 35px;
-    width: 35px;
-}
-
 .buttonGH {
     background: url('github.jpg') no-repeat;
     background-size: contain;
@@ -143,3 +134,8 @@ li a.nav:hover:not(.active) {
 .button:hover span:after {
     opacity: 1;
   }
+
+a {
+  color: hotpink;
+  font-weight: bold;
+}
